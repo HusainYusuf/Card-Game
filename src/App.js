@@ -4,62 +4,62 @@ import SingleCard from './components/singleCard';
 
 //reference to cards 
 const cardsImages = [
-  { "src" : "/images/2_of_clubs.png"  },
-  { "src" : "/images/2_of_diamonds.png"  },
-  { "src" : "/images/2_of_hearts.png"  },
-  { "src" : "/images/2_of_spades.png"  },
-  { "src" : "/images/3_of_clubs.png"  },
-  { "src" : "/images/3_of_diamonds.png"  },
-  { "src" : "/images/3_of_hearts.png"  },
-  { "src" : "/images/3_of_spades.png"  },
-  { "src" : "/images/4_of_clubs.png"  },
-  { "src" : "/images/4_of_diamonds.png"  },
-  { "src" : "/images/4_of_hearts.png"  },
-  { "src" : "/images/4_of_spades.png"  },
-  { "src" : "/images/4_of_clubs.png"  },
-  { "src" : "/images/4_of_diamonds.png"  },
-  { "src" : "/images/4_of_hearts.png"  },
-  { "src" : "/images/4_of_spades.png"  },
-  { "src" : "/images/5_of_clubs.png"  },
-  { "src" : "/images/5_of_diamonds.png"  },
-  { "src" : "/images/5_of_hearts.png"  },
-  { "src" : "/images/5_of_spades.png"  },
-  { "src" : "/images/6_of_clubs.png"  },
-  { "src" : "/images/6_of_diamonds.png"  },
-  { "src" : "/images/6_of_hearts.png"  },
-  { "src" : "/images/6_of_spades.png"  },
-  { "src" : "/images/7_of_clubs.png"  },
-  { "src" : "/images/7_of_diamonds.png"  },
-  { "src" : "/images/7_of_hearts.png"  },
-  { "src" : "/images/7_of_spades.png"  },
-  { "src" : "/images/8_of_clubs.png"  },
-  { "src" : "/images/8_of_diamonds.png"  },
-  { "src" : "/images/8_of_hearts.png"  },
-  { "src" : "/images/8_of_spades.png"  },
-  { "src" : "/images/9_of_clubs.png"  },
-  { "src" : "/images/9_of_diamonds.png"  },
-  { "src" : "/images/9_of_hearts.png"  },
-  { "src" : "/images/9_of_spades.png"  },
-  { "src" : "/images/10_of_clubs.png"  },
-  { "src" : "/images/10_of_diamonds.png"  },
-  { "src" : "/images/10_of_hearts.png"  },
-  { "src" : "/images/10_of_spades.png"  },
-  { "src" : "/images/ace_of_clubs.png"  },
-  { "src" : "/images/ace_of_diamonds.png"  },
-  { "src" : "/images/ace_of_hearts.png"  },
-  { "src" : "/images/ace_of_spades2.png"  },
-  { "src" : "/images/jack_of_clubs2.png"  },
-  { "src" : "/images/jack_of_diamonds2.png"  },
-  { "src" : "/images/jack_of_hearts2.png"  },
-  { "src" : "/images/jack_of_spades2.png"  },
-  { "src" : "/images/king_of_clubs2.png"  },
-  { "src" : "/images/king_of_diamonds2.png"  },
-  { "src" : "/images/king_of_hearts2.png"  },
-  { "src" : "/images/king_of_spades2.png"  },
-  { "src" : "/images/queen_of_clubs2.png"  },
-  { "src" : "/images/queen_of_diamonds2.png"  },
-  { "src" : "/images/queen_of_hearts2.png"  },
-  { "src" : "/images/queen_of_spades2.png"  }
+  { "src" : "/images/2_of_clubs.png", matched: false  },
+  { "src" : "/images/2_of_diamonds.png", matched: false  },
+  { "src" : "/images/2_of_hearts.png", matched: false  },
+  { "src" : "/images/2_of_spades.png", matched: false  },
+  { "src" : "/images/3_of_clubs.png", matched: false  },
+  { "src" : "/images/3_of_diamonds.png", matched: false  },
+  { "src" : "/images/3_of_hearts.png", matched: false  },
+  { "src" : "/images/3_of_spades.png", matched: false  },
+  { "src" : "/images/4_of_clubs.png", matched: false  },
+  { "src" : "/images/4_of_diamonds.png", matched: false  },
+  { "src" : "/images/4_of_hearts.png", matched: false  },
+  { "src" : "/images/4_of_spades.png", matched: false  },
+  { "src" : "/images/4_of_clubs.png", matched: false  },
+  { "src" : "/images/4_of_diamonds.png", matched: false  },
+  { "src" : "/images/4_of_hearts.png", matched: false  },
+  { "src" : "/images/4_of_spades.png", matched: false  },
+  { "src" : "/images/5_of_clubs.png", matched: false  },
+  { "src" : "/images/5_of_diamonds.png", matched: false  },
+  { "src" : "/images/5_of_hearts.png", matched: false  },
+  { "src" : "/images/5_of_spades.png", matched: false  },
+  { "src" : "/images/6_of_clubs.png", matched: false  },
+  { "src" : "/images/6_of_diamonds.png", matched: false  },
+  { "src" : "/images/6_of_hearts.png", matched: false  },
+  { "src" : "/images/6_of_spades.png", matched: false  },
+  { "src" : "/images/7_of_clubs.png", matched: false  },
+  { "src" : "/images/7_of_diamonds.png", matched: false  },
+  { "src" : "/images/7_of_hearts.png", matched: false  },
+  { "src" : "/images/7_of_spades.png", matched: false  },
+  { "src" : "/images/8_of_clubs.png", matched: false  },
+  { "src" : "/images/8_of_diamonds.png", matched: false  },
+  { "src" : "/images/8_of_hearts.png", matched: false  },
+  { "src" : "/images/8_of_spades.png", matched: false  },
+  { "src" : "/images/9_of_clubs.png", matched: false  },
+  { "src" : "/images/9_of_diamonds.png", matched: false  },
+  { "src" : "/images/9_of_hearts.png", matched: false  },
+  { "src" : "/images/9_of_spades.png", matched: false  },
+  { "src" : "/images/10_of_clubs.png", matched: false  },
+  { "src" : "/images/10_of_diamonds.png", matched: false  },
+  { "src" : "/images/10_of_hearts.png", matched: false  },
+  { "src" : "/images/10_of_spades.png", matched: false  },
+  { "src" : "/images/ace_of_clubs.png", matched: false  },
+  { "src" : "/images/ace_of_diamonds.png", matched: false },
+  { "src" : "/images/ace_of_hearts.png", matched: false  },
+  { "src" : "/images/ace_of_spades2.png", matched: false  },
+  { "src" : "/images/jack_of_clubs2.png", matched: false  },
+  { "src" : "/images/jack_of_diamonds2.png", matched: false  },
+  { "src" : "/images/jack_of_hearts2.png", matched: false  },
+  { "src" : "/images/jack_of_spades2.png", matched: false  },
+  { "src" : "/images/king_of_clubs2.png", matched: false  },
+  { "src" : "/images/king_of_diamonds2.png", matched: false  },
+  { "src" : "/images/king_of_hearts2.png", matched: false  },
+  { "src" : "/images/king_of_spades2.png", matched: false  },
+  { "src" : "/images/queen_of_clubs2.png", matched: false  },
+  { "src" : "/images/queen_of_diamonds2.png", matched: false  },
+  { "src" : "/images/queen_of_hearts2.png", matched: false  },
+  { "src" : "/images/queen_of_spades2.png", matched: false  }
 ]
 
 function App() {
@@ -79,7 +79,7 @@ function App() {
       [cardsImages[currentIndex], cardsImages[randomIndex]] = [cardsImages[randomIndex], cardsImages[currentIndex]]
     }
 
-    //creates two sets of the same cards
+    //creates two sets of the same cards to match
     const shuffledCards = [...cardsImages, ...cardsImages].map((card) => ({...card, id: Math.random()}))
 
     //sets the cards and maps to a key
@@ -103,18 +103,31 @@ function App() {
     if(firstChoice != null && secondChoice != null) {
       if(firstChoice.src === secondChoice.src)
         {
-          console.log('Matching pairs found')
+          cardSet(prevCards => {
+            return prevCards.map(card => {
+              //cards match
+              if(card.src === firstChoice.src) {
+                //change match state to true
+                return {... card, matched: true}
+              }
+              else {
+                return card
+              }
+            })
+          })
           resetTurn()
         }
+      //cards dont match
       else {
-        console.log('Not a matching pair')
-        resetTurn()
+        //wait one second before they flip back
+        setTimeout(() => resetTurn(), 1000)
       }
 
     }
 
   }, [firstChoice, secondChoice])
 
+  console.log(cards)
 
   return (
     <div className="App">
@@ -126,6 +139,7 @@ function App() {
             key = {card.id} 
             card = {card}
             handleChoice = {handleChoice}
+            flipped = {card === firstChoice || card === secondChoice || card.matched}
             />
         ))}
       </div>
