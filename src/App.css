@@ -24,7 +24,18 @@ button:hover {
 .card-grid {
   margin-top: 140px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 120px;
+}
 
+.turns {
+  margin-top: 40px;
+  font-size: 2.0em; 
+  font-style: bold;
+}
+
+.stop-watch {
+  margin-top: 40px;
+  font-size: 2.0em; 
+  font-style: bold;
 }
